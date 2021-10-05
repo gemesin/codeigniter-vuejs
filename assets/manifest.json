@@ -1,0 +1,21 @@
+{
+  "name": "Ngumbahke",
+  "short_name": "Ngumbahke",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  "orientation": "landscape-primary",
+  "icons": [
+    {
+      "src":"/assets/images/manifest/img-192x192.png",
+      "sizes":"192x192",
+      "type":"image/png"
+    },
+    {
+      "src":"/assets/images/manifest/img-512x512.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|wp-content|app_config)
+RewriteRule ^(.*)$ index.php/?$1 [L]
+#RewriteRule ^(.*)$ ./index.php/?$1 [L]
+
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
